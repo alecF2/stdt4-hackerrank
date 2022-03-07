@@ -1,5 +1,5 @@
-function ashtonString(s: string, k: number): string {
-  let combos: string[] = []
+function ashtonString(s, k) {
+  let combos = []
   let seen = new Set()
   for (let i = 0; i < s.length; i++) {
     for (let j = i + 1; j < s.length + 1; j++) {
